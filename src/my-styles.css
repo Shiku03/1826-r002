@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkolivegreen;
+}
+.navbar{
+    background-color: rgb(165, 159, 159);
+    padding: 6px 4px;
+    display: flex;   
+}
+.company-name, .home-panel{
+    width:50%;
+    
+}
+.home-panel, .text{
+    text-align: center;
+    display: flex;
+    padding:0 8px;
+    
+}
+.company-name{
+    padding-left: 32px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#content{
+    display: flex;
+    ;
+}
+.about-us, .image-wrapper{
+    width:50%;
+}
+
+
+img{
+    margin: 4px 8px;
+    padding: 6px 12px;
+    border-radius: 64px;
+    max-height: 400px;
+}
+.products{
+    text-align: center;
+}
+li, .application-form{
+    list-style-type: none;
+    padding:4px 0;
+}
+
+
+
+#footer{
+    padding: 20px 32px;
+    text-align: center;
+    background-color: rgb(136, 132, 132);
+}
